@@ -10,6 +10,8 @@ h4,
 p{
     margin: 0;
     font-weight: normal;
+    background-color: red;
+    font-family: 'Sans', sans-serif;
 
 }
 
@@ -17,9 +19,13 @@ div, header, main, footer {
     margin: 0;
 }
 
+p {
+
+}
+
 .main-preview{
     text-align: center;
-    background-color: cadetblue;
+    background-color: blue;
     width: 100%;
     height: 80vh;
 }
@@ -31,16 +37,40 @@ section{
     width: 100%;
 }
 .card {
-    text-align: center;
-    display: inline-block;
+    display: block;
     background-color: saddlebrown;
-    margin: 20px 10px 20px 10px;
+    margin: 20px 0 20px 0;
     padding: 20px;
     height: 600px;
-    width: 45%;
-
-}
-.card-description{
-
+    width: 80%;
+    border: 1px solid lightgray;
 }
 
+.snap-left{
+    margin-right: auto;
+}
+
+.snap-right{
+    margin-left: auto;
+
+}
+
+.card-description {
+
+}
+.card-head-block{
+    display: inline-block;
+    text-align: center;
+    background-color: orange;
+}
+.card-description-box {
+    height: 80%;
+    width: 30%;
+    display: inline-block;
+    background-color: white;
+    margin: 0 auto 0 auto;
+}
+
+.card-image{
+    display: block;
+}
