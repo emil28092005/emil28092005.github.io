@@ -7,6 +7,7 @@ body ,header, section, footer{
 }
 
 h1,h2,h3,h4,h5,h6,p{
+    text-shadow: black 4px 4px 3px;
     margin: 0;
     color: #e4c373;
     font-family: 'MesloLGS NF', sans-serif;
@@ -20,7 +21,7 @@ h1 {
 }
 
 p {
-    font-weight: lighter;
+    font-weight: 550;
 }
 
 .header {
@@ -36,7 +37,7 @@ p {
 
 .header-image {
     display: inline-block;
-    width: 100%;
+    width: 95%;
 
 }
 
@@ -44,8 +45,9 @@ p {
     width: 100%;
     display: inline-block;
     text-align: center;
+    padding: 20px;
     justify-content: space-evenly;
-    background: #bdad60;
+    background: radial-gradient(circle, rgba(164,126,10,1) 0%, rgba(139,69,19,1) 100%);
     margin: 0 auto;
 }
 
@@ -66,7 +68,7 @@ p {
     display: block;
     margin: 0 auto;
     width: 90%;
-    border: solid 1px #2a1508;
+    border: solid 3px #2a1508;
 }
 
 .card-description {
@@ -77,16 +79,11 @@ p {
 .footer {
     background-color: saddlebrown;
     text-align: center;
-    height: 20vh;
+    height: 22vh;
     width: 100%;
 }
 
 .fancy-external-border{
     border: solid 5px #2a1508;
     box-shadow: 10px 10px 20px #2a1508;
-}
-
-.telegram-icon {
-
-
 }
