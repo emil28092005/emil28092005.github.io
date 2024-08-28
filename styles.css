@@ -31,8 +31,14 @@ p {
     width: 100%;
 }
 
-.header-name{
+.header-name {
     color: #bdad60;
+}
+
+.header-description {
+    color: #bdad60;
+    line-height: 1;
+    margin-bottom: 1vh;
 }
 
 .header-image {
@@ -45,7 +51,7 @@ p {
     width: 100%;
     display: inline-block;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     justify-content: space-evenly;
     background: radial-gradient(circle, rgba(164,126,10,1) 0%, rgba(139,69,19,1) 100%);
     margin: 0 auto;
