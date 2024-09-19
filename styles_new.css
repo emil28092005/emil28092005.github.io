@@ -85,11 +85,20 @@ p {
 .footer {
     background-color: saddlebrown;
     text-align: center;
-    height: 22vh;
+    height: 25vh;
     width: 100%;
 }
 
+.header__image--framed{
+    border: solid 5px #2a1508;
+    box-shadow: 10px 10px 20px #2a1508;
+}
 .card--framed{
     border: solid 5px #2a1508;
     box-shadow: 10px 10px 20px #2a1508;
 }
+.footer--framed{
+    border: solid 5px #2a1508;
+    box-shadow: 10px 10px 20px #2a1508;
+}
+
