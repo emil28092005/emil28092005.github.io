@@ -2,81 +2,91 @@
     box-sizing: border-box;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-p{
+body ,header, section, footer{
     margin: 0;
-    font-weight: normal;
-    background-color: red;
-    font-family: 'Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    color: #e4c373;
+    font-family: 'MesloLGS NF', sans-serif;
 
 }
 
-div, header, main, footer {
+h1 {
+    text-align: center;
+    font-weight: 600;
     margin: 0;
 }
 
 p {
-
+    font-weight: lighter;
 }
 
-.main-preview {
+.header {
+
     text-align: center;
-    background-color: blue;
-    width: 100%;
-    height: 80vh;
-}
-
-.main-preview-image {
-    height: 100%;
-}
-
-section{
-    background-color: darkred;
-    margin: auto;
-    text-align: center;
-    width: 100%;
-}
-.card {
-    display: block;
     background-color: saddlebrown;
-    margin: 20px 0 20px 0;
-    padding: 20px;
-    height: 600px;
-    width: 80%;
-    border: 1px solid lightgray;
+    width: 100%;
 }
 
-.snap-left{
-    margin-right: auto;
+.header-name{
+    color: #bdad60;
 }
 
-.snap-right{
-    margin-left: auto;
+.header-image {
+    display: inline-block;
+    width: 100%;
 
+}
+
+.section {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+    background: #bdad60;
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: saddlebrown;
+}
+
+.card-name {
+    margin: 0;
+    text-align: center;
+}
+
+.card-image {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border: solid 1px #2a1508;
 }
 
 .card-description {
-
-}
-.card-head-block{
-    display: inline-block;
+    margin: 0;
     text-align: center;
-    background-color: orange;
-    width: 30%;
-}
-.card-description-box {
-    height: 80%;
-    width: 30%;
-    display: inline-block;
-    background-color: white;
-    margin: 0 auto 0 auto;
 }
 
-.card-image{
-    display: block;
+.footer {
+    background-color: saddlebrown;
+    text-align: center;
+    height: 20vh;
     width: 100%;
+}
+
+.fancy-external-border{
+    border: solid 5px #2a1508;
+    box-shadow: 10px 10px 20px #2a1508;
+}
+
+.telegram-icon {
+
+
 }
